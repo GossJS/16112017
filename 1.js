@@ -1,4 +1,4 @@
-const f = function(t, e){e.target.textContent = this+t};   /* обратите внимание на порядок и семантику аргументов! */; 
+       const f = function(t, e){e.target.textContent = this+t};   /* обратите внимание на порядок и семантику аргументов! */; 
        // измените 2 следующие строки так, чтобы надписи на кнопках менялись при щелчке так, как на гифке ниже 
        document.querySelector('button').addEventListener('click', f('Нажата первая кнопка'));  
        document.querySelector('button').addEventListener('click', f('Нажата вторая кнопка'));  
